@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/.yarn
 /.pnp
 .pnp.js
 
@@ -11,6 +12,8 @@
 # next.js
 /.next/
 /out/
+/analyze/
+/.swc/
 
 # production
 /build
@@ -31,6 +34,10 @@ yarn-error.log*
 # vercel
 .vercel
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# README.md file
+README.md 
+
+# no yarn.lock|package-lock.json file
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
